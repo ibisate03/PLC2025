@@ -1,0 +1,12 @@
+
+Solucion :   ^(?!.*011)[01]*$
+
+Explicación : 
+^ → indica o início da string, ou seja, que a verificação começa desde o começo.
+
+*(?!.011) → verifica que em nenhum lugar da string aparece o padrão 011.
+Se aparecer, a expressão já não dá match.
+
+[01]* → significa aceita qualquer quantidade (inclusive zero) de 0s e 1s.
+
+$ → indica o fim da string, garantindo que a verificação é feita até o final.
