@@ -1,0 +1,7 @@
+[
+  { "code": "A1", "name": "Water",      "qty": 6, "price": 80  },
+  { "code": "A2", "name": "Coca-Cola",  "qty": 5, "price": 130 },
+  { "code": "A3", "name": "Iced Tea",   "qty": 4, "price": 120 },
+  { "code": "B1", "name": "Snack",      "qty": 5, "price": 95  },
+  { "code": "B2", "name": "Cookie",     "qty": 7, "price": 70  }
+]
